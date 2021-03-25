@@ -1,0 +1,45 @@
+body {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  word-break: break-all;
+  font-family: "PT Serif", serif;
+  background: linear-gradient(to top, #a8dbc8, #c9dbaa);
+}
+
+.container {
+  height: auto;
+  position: relative;
+}
+
+.container > .main {
+  position: relative;
+  display: inline-block;
+  left: calc(50% - 400px);
+  margin-right: 2%;
+}
+
+.container > .main > video {
+  position: relative;
+  max-width: 850px;
+  max-height: 850px;
+  z-index: 100;
+}
+
+.container > .main > img {
+  position: absolute;
+  left: -5px;
+}
+
+.container > .main > .stuff01 {
+  max-width: 1000px;
+  max-height: 800px;
+}
+
+.container > .main > .stuff03 {
+  z-index: 150;
+}
+
+.container > .main > .stuff04 {
+  z-index: 150;
+}
